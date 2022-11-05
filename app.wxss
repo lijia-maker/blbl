@@ -1,0 +1,14 @@
+.container{padding: 0 26rpx;box-sizing:border-box} 
+.goTop{
+  position: fixed;
+  z-index: 9999;
+  right: 90rpx;
+  bottom: 90rpx;
+  width: 40rpx;
+  height: 40rpx;
+  font-size: 30rpx;
+  line-height: 66rpx;
+  color: #fff;
+  text-align: center;
+
+}

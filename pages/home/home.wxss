@@ -1,0 +1,39 @@
+/* pages/home/home.wxss */
+
+/*搜索框*/
+.bigsearch{
+  display: flex;
+  justify-content: center;
+  margin: 20rpx;
+}
+.bigsearch .search{
+  display: flex;
+  border: 1rpx solid black;
+  flex-direction: row;
+  width: 70%;
+  justify-content:space-between;
+  border-radius: 10px;
+
+}
+.bigsearch .search .input{
+  width: 100%;
+}
+.bigsearch .search .sousuo{
+  width: 50rpx;
+  height: 50rpx;
+}
+/* 轮播器 */
+.banner{ width:100%; height: 400rpx;margin-bottom: 40rpx;}
+.banner .swiban{ height: 100%; width:100%;display: flex; justify-content: center;align-items: center; }
+.banner image{ width: 100%; height: 400rpx;}
+/* 列表 */
+.dyItem{ display: flex; padding: 15rpx 0;border: 1rpx dashed #f4f4f4;justify-content: space-between;}
+.dyItem .pic{width: 300rpx;height: 180rpx;}
+.dyItem .pic image{width: 100%;height: 100%;border-radius: 3%;}
+.dyItem .txt{width: 440rpx;display: flex;flex-direction: column;justify-content: space-between;}
+.dyItem .title{font-size: 34rpx;height:  140rpx;display: -webkit-box;-webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;overflow: hidden;}
+.dyItem .info{font-size: 26rpx;color: #888;}
+.dyItem .info text{font-size: 22rpx;display: inline-block;}
+.dyItem .txt .info .up{width:250rpx ; display: inline-block;}
+/* .dyItem .txt .info .time{width:300rpx ; display: inline-block;margin:0rpx 100rpx 0rpx 50rpx;} */

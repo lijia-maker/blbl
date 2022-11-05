@@ -1,0 +1,16 @@
+<!--pages/my/myhistory.wxml-->
+<view class="dyMain" wx:for="{{history}}"wx:key="index">
+      <navigator class="dyItem"  url="../playvideo/playvideo?id={{item.history.oid}}">
+        <view class="pic" >
+          <image src="{{item.cover}}"></image>
+        </view>
+        <view class="txt">
+          <view class="title">
+            {{item.title}}
+          </view>
+          <view class="info">
+            <text class="up">up：{{item.author_name}}</text><text class="time" >{{item.view_at}}    </text>
+          </view>
+        </view>
+      </navigator>
+</view>

@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/my/my",
+    "pages/sort/sort",
+    "pages/shortvideo/shortvideo",
+    "pages/playvideo/playvideo",
+    "pages/videoitem/videoitem",
+    "pages/serach/serach",
+    "pages/serach/serachresult",
+    "pages/playvideo/playvideo1",
+    "pages/my/myhistory",
+    "pages/my/myfolds"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "HkVideo",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a2a2a2",
+    "selectedColor": "#FB7299",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "image/icon_tab_index.png",
+        "selectedIconPath": "image/icon_tab_index-selected.png"
+      },
+      {
+        "pagePath": "pages/sort/sort",
+        "text": "分区",
+        "iconPath": "image/icon_tab_area.png",
+        "selectedIconPath": "image/icon_tab_area-selected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "image/icon_tab_home.png",
+        "selectedIconPath": "image/icon_tab_home-selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

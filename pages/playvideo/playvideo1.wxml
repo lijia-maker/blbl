@@ -1,0 +1,3 @@
+<!--pages/playvideo/playvideo1.wxml-->
+<text>pages/playvideo/playvideo1.wxml</text>
+<web-view src="{{u}}"></web-view>

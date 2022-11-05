@@ -1,0 +1,14 @@
+/* pages/my/my.wxss */
+.use_info{display: flex; flex-direction: column;align-items:center;margin-top: 10rpx;}
+.use_info .pic{width:150rpx;height: 150rpx;border-radius: 50%; display: flex;}
+.use_info .txt{font-size: 30rpx;}
+
+
+.history{margin-top:40rpx ;}
+.divLine{background: #E0E3DA;width: 375.2px;height: 5rpx;}
+.t{ display: flex;justify-content: space-between;margin: 20rpx 0;}
+.t .btn{color: #51524f;}
+.navs {display: flex;align-items: center;}
+.nav-item {width: 240rpx;display: flex; align-items: center; flex-direction: column;padding: 0 10rpx;height: 134.4px}
+.nav-item .nav-image { width: 240rpx;height: 180rpx;}
+.nav-item text {margin-top: 5rpx;font-size: 28rpx;color: gray; display:inline-block;width: 100%;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;}

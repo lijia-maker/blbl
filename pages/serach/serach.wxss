@@ -1,0 +1,4 @@
+.txt{background-color: #f2f2f2 ;border-radius: 20%;padding: 0 10rpx;word-break:keep-all;height: 40rpx;}
+.hw{height: 60rpx;margin:  0 10rpx;}
+.hot{display: flex;flex-wrap: wrap;}
+

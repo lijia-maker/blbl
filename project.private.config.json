@@ -1,0 +1,79 @@
+{
+  "setting": {
+    "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/playvideo/playvideo",
+          "pathName": "pages/playvideo/playvideo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/shortvideo/shortvideo",
+          "pathName": "pages/shortvideo/shortvideo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/playvideo/playvideo",
+          "pathName": "pages/playvideo/playvideo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sort/sort",
+          "pathName": "pages/sort/sort",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/videoitem/videoitem",
+          "pathName": "pages/videoitem/videoitem",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/test/test",
+          "pathName": "pages/test/test",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/my/my",
+          "pathName": "pages/my/my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/serach/serach",
+          "pathName": "pages/serach/serach",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/serach/serachresult",
+          "pathName": "pages/serach/serachresult",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/my/myfolds",
+          "pathName": "pages/my/myfolds",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "blbl"
+}

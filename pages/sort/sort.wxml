@@ -1,0 +1,8 @@
+<view class="bigicon">
+  <view class="icon" wx:for="{{list}}"wx:key="index">
+    <navigator  class="icons" url="../videoitem/videoitem?rid={{item.rid}}&name={{item.name}}" >
+        <image class="pic"mode="aspectFit" src="{{item.logo}}"></image>
+        <text class="txt">{{item.name}}</text>
+    </navigator>
+  </view>
+</view>

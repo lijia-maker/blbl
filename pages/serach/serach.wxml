@@ -1,0 +1,12 @@
+<van-search
+  value="{{ value }}"
+  shape="round"
+  placeholder="请输入搜索关键词"
+  bind:search	="onSearch" 
+  bind:change	="onChange"
+/>
+<view class="hot">
+    <navigator url="../serach/serachresult?key={{item.keyword}}" class="hw" wx:for="{{hotword.list}}">
+        <text class="txt">{{item.keyword}}</text>
+    </navigator>
+</view>

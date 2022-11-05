@@ -1,0 +1,39 @@
+<image src="/image/上翻.png" class="goTop" bindtap="goTopAction" wx:if="{{up_show}}"></image>
+<!-- 搜索框 --> 
+<navigator url="/pages/serach/serach">
+  <van-search  disabled 
+    value="{{ value }}"
+    shape="round"
+    placeholder="请输入搜索关键词"
+    bind:search	="onSearch" 
+    bind:change	="onChange"
+  />
+</navigator>
+
+<!-- 轮播 -->
+<view class="banner">
+  <swiper class="swiban" indicator-dots indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#fff" circular autoplay interval="4000"> 
+    <navigator  class="navban" url="../playvideo/playvideo?id={{item.aid}}" wx:for="{{bannerlist}}"  wx:key="index" wx:if="{{index<4}}">
+      <swiper-item>
+          <image class="pic" src="{{item.pic}}"></image>
+      </swiper-item>
+    </navigator> 
+  </swiper>
+</view>
+
+<!-- 列表 -->
+<view class="dyMain" wx:for="{{bannerlist}}"wx:key="index">
+      <navigator class="dyItem"  url="../playvideo/playvideo?id={{item.aid}}">
+        <view class="pic" >
+          <image src="{{item.pic}}"></image>
+        </view>
+        <view class="txt">
+          <view class="title">
+            {{item.title}}
+          </view>
+          <view class="info">
+            <text class="up">up：{{item.author.name}}</text><text class="time" >{{item.pubdate1}}    </text>
+          </view>
+        </view>
+      </navigator>
+</view>

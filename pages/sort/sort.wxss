@@ -1,0 +1,6 @@
+/* pages/sort/sort.wxss */
+.bigicon{display: flex;flex-wrap: wrap;align-content: flex-start;justify-content: space-between;}
+.icon{display: flex;flex-wrap: wrap;align-content: flex-start;justify-content: space-between;width: 180rpx;}
+.icons {width: 180rpx;height: 180rpx;display: flex; align-items: center; flex-direction: column;}
+.icon .pic{width: 100rpx;}
+.icon .txt{font-size: 24rpx;}

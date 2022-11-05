@@ -1,0 +1,13 @@
+<!--pages/my/myfolds.wxml-->
+<view class="dyMain" wx:for="{{folders.data}}"wx:key="index">
+      <navigator class="dyItem"  url="">
+        <view class="pic" >
+          <image src="{{item.cover[0].pic}}"></image>
+        </view>
+        <view class="txt">
+          <view class="title">
+            {{item.name}}
+          </view>
+        </view>
+      </navigator>
+</view>

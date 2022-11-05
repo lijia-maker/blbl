@@ -1,0 +1,61 @@
+
+<image src="/image/上翻.png" class="goTop" bindtap="goTopAction" wx:if="{{up_show}}"></image>
+
+<video   style="height:450rpx;width:100%" src="{{d[0].url}}"danmu-list="{{danmuList}}" enable-danmu danmu-btn controls poster="{{videodata.pic}}"></video> 
+    
+    
+     
+  <van-tabs swipeable active="{{ active }}" >
+    <van-tab title="简介" >
+      <view hidden="{{hiddenName}}"  >
+        <view class="title" bindtap='clickMe'>
+          <text  class="txt1">{{videodata.title}}</text>
+          <text class="txt2">V</text>
+        </view>
+        <view class="aut">
+          <image class="pic" src="{{videodata.owner.face}} "></image>
+            <text clsaa="nam">{{videodata.owner.name}}</text>
+        </view>
+        
+      </view>   
+      <view hidden="{{!hiddenName}}"  >
+        <view class="title"  bindtap="clickMe">
+          <text  >{{videodata.title}}</text>
+          <text class="txt2">Λ</text>
+        </view>
+        <view class="aut">
+          <image class="bigpic" src="{{videodata.owner.face}} "></image>
+            <text class="bignam">{{videodata.owner.name}}</text>
+        </view>
+        <text class="desc">{{videodata.desc}}</text>
+  
+      </view>
+
+      
+              <view class='navs'>
+                <view class='nav-item' wx:for="{{rvideo.Related}}" wx:key="rvideo">
+                  <navigator  url="../playvideo/playvideo?id={{item.aid}}">
+                    <image class="nav-image" src='{{item.pic}}'   />
+                    <text>{{item.title}}</text>
+                  </navigator>
+                </view>
+              </view>
+
+      
+    </van-tab>
+    <van-tab title="评论" >
+
+      <view class="videocontent">
+        <view class="videocontent-item" wx:for="{{vc}}" wx:key="vc">
+          <view class="tn">
+            <image class="pic"src="{{item.member.avatar}}"></image>
+            <text class="nam">{{item.member.uname}}</text>
+          </view>
+          <text class="con">{{item.content.message}}</text>
+        </view>
+      </view>
+    
+    </van-tab>
+
+    
+  </van-tabs>

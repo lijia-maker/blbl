@@ -1,0 +1,18 @@
+<!--pages/videoitem/videoitem.wxml-->
+<image src="/image/上翻.png" class="goTop" bindtap="goTopAction" wx:if="{{up_show}}"></image>
+<text class="txt1">{{name}}</text>
+<view class="dyMain" wx:for="{{list}}"wx:key="index" >
+      <navigator class="dyItem"  url="../playvideo/playvideo?id={{item.aid}}">
+        <view class="pic" >
+          <image src="{{item.pic}}"></image>
+        </view>
+        <view class="txt">
+          <view class="title">
+            {{item.title}}
+          </view>
+          <view class="info">
+            <text class="up">up：{{item.owner.name}}</text><text class="time" >{{item.pubdate1}}    </text>
+          </view>
+        </view>
+      </navigator>
+</view>

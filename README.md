@@ -1,7 +1,8 @@
 ---
- title: fake_blbl
-date: 2022-11-05 19:07:09
+title: fake_blbl
 tags: 微信小程序
+abbrlink: 7dd7bbd3
+date: 2022-11-05 19:07:09
 ---
 
 ### 项目简介
@@ -18,33 +19,33 @@ tags: 微信小程序
   
     <img src="https://s2.loli.net/2022/11/05/MIrSJLOP3ZNXsAd.png" style="zoom:50%;" />
   
-    <img src="C:\Users\lijusting\AppData\Roaming\Typora\typora-user-images\image-20221105201120991.png" alt="image-20221105201120991" style="zoom:50%;" />
+    <img src="https://s2.loli.net/2022/11/18/QJFn8zH1UDry6aV.png" style="zoom:50%;" />
   
   + 分类界面（有些分类跳转web view)
   
-    <img src="C:\Users\lijusting\AppData\Roaming\Typora\typora-user-images\image-20221105201200523.png" alt="image-20221105201200523" style="zoom:50%;" />
+    <img src="https://s2.loli.net/2022/11/18/IAKQ2veVEGsRyTS.png" style="zoom:50%;" />
   
-  + 视频播放，弹幕（配合小程序的弹幕）。
+  + 视频播放，弹幕（配合小程序的弹幕api）。
   
-    <img src="C:\Users\lijusting\AppData\Roaming\Typora\typora-user-images\image-20221105201254152.png" alt="image-20221105201254152" style="zoom:50%;" />
+    <img src="https://s2.loli.net/2022/11/18/xDluZG54wCbF8Rz.png" style="zoom:50%;" />
   
   + 简介的折叠展开。
   
 + 项目还有很多可以优化的地方，比如防抖，增加动画过渡，界面可以再美化一点）
 
-###  项目部署
+### 项目部署
 
-+ 下载[微信开发者工具]([微信开发者工具（稳定版 Stable Build）下载地址与更新日志 | 微信开放文档 (qq.com)](https://developers.weixin.qq.com/miniprogram/dev/devtools/stable.html))
++ 下载[微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/stable.html)
 
-+ 下载[nginx]([nginx: download](http://nginx.org/en/download.html)) 版本
++ 下载[nginx](http://nginx.org/en/download.html) 版本
 
   <img src="https://s2.loli.net/2022/11/05/DZ6Verf9UcXpJGn.png" style="zoom: 50%;" />
 
-​       前面的是`linux `版本，后面带`windows` 是`Windows`版本。
+​       前面的是`linux`版本，后面带`windows` 是`Windows`版本。
 
 + 下载[nginx 配置文件](https://www.aliyundrive.com/s/naLd98Kf4Dh)。
 
-+ 下载[fiddler]([Fiddler4 (telerik.com)](https://www.telerik.com/download/fiddler/fiddler4)) 如果你不需要自己抓包（获取api）可以省略这一步
++ 下载[fiddler](https://www.telerik.com/download/fiddler/fiddler4) 如果你不需要自己抓包（获取api）可以省略这一步
 
   `fidder`的简单使用教程我准备写在另外的一篇博客。
 
@@ -52,9 +53,8 @@ tags: 微信小程序
 
   <img src="https://s2.loli.net/2022/11/05/jdOmQ89Ka3g4GR6.png" style="zoom:50%;" />
   
-+ 打开`微信开发者工具`,选择小程序，导入从[github]() 下载下来的文件,选择不使用云服务，点击确认就行了
++ 打开`微信开发者工具`,选择小程序，导入从[github](https://github.com/lijia-maker/blbl) 下载下来的文件,选择不使用云服务，点击确认就行了
 
-​       ![image-20221105200213868](C:\Users\lijusting\AppData\Roaming\Typora\typora-user-images\image-20221105200213868.png) 
+![](https://s2.loli.net/2022/11/18/TAY1SXnF53tvUZW.png)
 
-![image-20221105200608182](C:\Users\lijusting\AppData\Roaming\Typora\typora-user-images\image-20221105200608182.png)
-
+![](https://s2.loli.net/2022/11/18/f8HYPmcWj6NnuRg.png)
